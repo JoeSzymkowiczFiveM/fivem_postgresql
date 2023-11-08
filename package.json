@@ -1,0 +1,9 @@
+{
+    "name": "fivem_postgresql",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "LGPL-3.0-or-later",
+    "dependencies": {
+        "pg": "^8.11.3"
+    }
+}
