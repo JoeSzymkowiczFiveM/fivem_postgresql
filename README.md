@@ -17,13 +17,13 @@ A FiveM resource to communicate with a PostreSQL database using [pg](https://www
 exec "database.cfg"
 start fivem_postgresql
 ```
-- Change `pocketbase_url`, `pocketbase_useremail`, and `pocketbase_password` in `database.cfg`.
-- Run `npm install` in `resources/fivem_pocketbase` directory.
+- Change `postgresql_host`, `postgresql_port`, `postgresql_username`, `postgresql_password` `postgresql_database`, and `postgresql_schema` in `database.cfg`.
+- Run `npm install` in `resources/fivem_postgresql` directory.
 
 
 ## 👀 Usage
 
-- Add the following line to the fxmanifest of the resource you want to use fivem_pocketbase in:
+- Add the following line to the fxmanifest of the resource you want to use fivem_postgresql in:
 ```
 server_script '@fivem_postgresql/lib/PostgreSQL.lua'
 ```
@@ -31,7 +31,7 @@ server_script '@fivem_postgresql/lib/PostgreSQL.lua'
 
 ## 👐 Credit
 
-Just another toy database wrapper for fivem. I used knowledge, code and patterns from the [fivem-mongodb](https://github.com/nbredikhin/fivem-mongodb) resource to develop this. Huge shoutout to the [Overextended](https://github.com/overextended) group for technical discussions and support.
+Just another toy database wrapper for fivem. I used knowledge, code and patterns from the [fivem-mongodb](https://github.com/nbredikhin/fivem-mongodb) resource to develop this. Huge shoutout to the [Overextended](https://github.com/overextended) and [Qbox](https://github.com/Qbox-project) groups for technical discussions and support.
 
 
 # Discord
